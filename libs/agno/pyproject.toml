@@ -71,7 +71,7 @@ dev = [
 ]
 
 os = ["fastapi[standard]", "uvicorn", "sqlalchemy", "PyJWT", "opentelemetry-sdk", "openinference-instrumentation-agno", "croniter>=1.3", "pytz>=2023.3"]
-whatsapp-crypto = ["cryptography>=41.0"]
+whatsapp-crypto = ["cryptography>=49.0.0"]
 scheduler = ["croniter>=1.3", "pytz>=2023.3"]
 
 # Dependencies for Telemetry
